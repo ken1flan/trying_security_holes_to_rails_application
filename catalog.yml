@@ -1,7 +1,15 @@
 PREDEF:
+  - preface.re
 
 CHAPS:
-  - making_security_holes_to_rails_application.re
+  - setup.re
+  - session_hijack.re
+  - csrf.re
+  - open_redirector.re
+  - regexp.re
+  - sql_injection.re
+  - xss.re
+  - taking_measures.re
 
 APPENDIX:
 
