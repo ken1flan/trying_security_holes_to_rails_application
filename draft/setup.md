@@ -9,15 +9,21 @@
 * ログイン、ログアウト
 * ブログの管理（一覧、編集、削除）
 
+なお、このサンプルアプリケーションはgithubで管理しています。
+https://github.com/ken1flan/security_sample
+
 ## 事前に準備が必要なもの
 
-以下のものは、すでに利用できる想定しており、インストール手順は省かせてください。
+次のものは、すでに利用できる想定しています。
+利用している環境に合わせて準備してください。
 
 * git
 * ruby
 * sqlite
 
 ## セットアップ
+
+リポジトリをクローンします。
 
 ```bash
 $ git clone git@github.com:ken1flan/security_sample.git
@@ -29,6 +35,8 @@ Resolving deltas: 100% (276/276), done.
 Checking connectivity... done.
 $
 ```
+
+セットアップスクリプトを実行します。
 
 ```bash
 $ cd security_sample/
@@ -62,3 +70,27 @@ Created database 'db/test.sqlite3'
 == Restarting application server ==
 $
 ```
+
+### 起動
+
+起動はよくあるRailsアプリケーションと同様に、`rails s`です。
+
+```bash
+$ rails s
+=> Booting Puma
+=> Rails 5.1.6 application starting in development
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.11.4 (ruby 2.5.1-p57), codename: Love Song
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+```
+
+### ユーザ登録
+
+サンプルアプリケーションで脆弱性を試すときに被害者になってもらうためのユーザを登録しておきます。
+ブラウザで http://localhost:3000/users/new を開き、ユーザ登録を行います。
+
+![ユーザ登録画面](https://cdn-ak.f.st-hatena.com/images/fotolife/k/ken1flan/20190118/20190118074054.png)
