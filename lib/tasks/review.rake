@@ -45,7 +45,7 @@ task default: :html_all
 desc 'build review files from draft markdown files'
 task :draft2re do
   Dir.glob('draft/*.md') do |md|
-    re = md.gsub(/draft\/(.*)\.md/, '\1.re')
+    re = md.gsub(/draft\/(.*)\.md/, 'articles/\1.re')
     command = "md2review #{md} > #{re}"
     sh command
   end

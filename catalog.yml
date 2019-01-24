@@ -1,20 +1,20 @@
 PREDEF:
 
 CHAPS:
-  - introduction.re
-  - setup.re
-  - session_hijack.re
-  - csrf.re
-  - open_redirector.re
-  - regexp.re
-  - sql_injection.re
-  - xss.re
-  - taking_measures.re
-  - bibliography.re
-  - conclusion.re
+  - articles/introduction.re
+  - articles/setup.re
+  - articles/session_hijack.re
+  - articles/csrf.re
+  - articles/open_redirector.re
+  - articles/regexp.re
+  - articles/sql_injection.re
+  - articles/xss.re
+  - articles/taking_measures.re
+  - articles/bibliography.re
+  - articles/conclusion.re
 
 APPENDIX:
-  - http_packet.re
+  - articles/http_packet.re
 
 POSTDEF:
 

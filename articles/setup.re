@@ -1,31 +1,40 @@
-# サンプルアプリケーションとセットアップ
 
-## サンプルアプリケーション
+= サンプルアプリケーションとセットアップ
+
+== サンプルアプリケーション
+
 
 ブログを管理するWebアプリケーションです。
 主な機能として、次のことができます。
 
-* ユーザ登録
-* ログイン、ログアウト
-* ブログの管理（一覧、編集、削除）
+ * ユーザ登録
+ * ログイン、ログアウト
+ * ブログの管理（一覧、編集、削除）
+
+
 
 なお、このサンプルアプリケーションはgithubで管理しています。
 https://github.com/ken1flan/security_sample
 
-## 事前に準備が必要なもの
+
+== 事前に準備が必要なもの
+
 
 次のものは、すでに利用できる想定しています。
 利用している環境に合わせて準備してください。
 
-* git
-* ruby
-* sqlite
+ * git
+ * ruby
+ * sqlite
 
-## セットアップ
+
+== セットアップ
+
 
 リポジトリをクローンします。
 
-```bash
+
+//emlist[][bash]{
 $ git clone git@github.com:ken1flan/security_sample.git
 Cloning into 'security_sample'...
 remote: Enumerating objects: 556, done.
@@ -34,11 +43,13 @@ Receiving objects: 100% (556/556), 311.77 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (276/276), done.
 Checking connectivity... done.
 $
-```
+//}
+
 
 セットアップスクリプトを実行します。
 
-```bash
+
+//emlist[][bash]{
 $ cd security_sample/
 $ bin/setup
 $ bin/setup
@@ -69,13 +80,15 @@ Created database 'db/test.sqlite3'
 
 == Restarting application server ==
 $
-```
+//}
 
-### 起動
+=== 起動
 
-起動はよくあるRailsアプリケーションと同様に、`rails s`です。
 
-```bash
+起動はよくあるRailsアプリケーションと同様に、@<tt>{rails s}です。
+
+
+//emlist[][bash]{
 $ rails s
 => Booting Puma
 => Rails 5.1.6 application starting in development
@@ -86,11 +99,17 @@ Puma starting in single mode...
 * Environment: development
 * Listening on tcp://0.0.0.0:3000
 Use Ctrl-C to stop
-```
+//}
 
-### ユーザ登録
+=== ユーザ登録
+
 
 サンプルアプリケーションで脆弱性を試すときに被害者になってもらうためのユーザを登録しておきます。
 ブラウザで http://localhost:3000/users/new を開き、ユーザ登録を行います。
 
-![ユーザ登録画面](../images/setup/sign_up_user.png)
+
+
+//image[sign_up_user][ユーザ登録画面]{
+//}
+
+

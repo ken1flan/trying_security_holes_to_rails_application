@@ -18,7 +18,7 @@ http://localhost:3000/blogs
 ブログには`draft`、いわゆる下書きという状態があり、この状態のときには他のユーザには見えないようになっています。
 なので、検索しても`draft`の記事は出てきません。
 
-![Search blogs with keyword 'cat'](https://cdn-ak.f.st-hatena.com/images/fotolife/k/ken1flan/20190120/20190120201052.png)
+![Search blogs with keyword 'cat'](../images/sql_injection/search_by_cat.png)
 
 ### 特殊なキーワードで検索
 
@@ -26,7 +26,7 @@ http://localhost:3000/blogs
 
 そうすると、本来見えないはずの`draft`のバッジのついたブログが一覧に表示されます。
 
-![SQLインジェクション](https://cdn-ak.f.st-hatena.com/images/fotolife/k/ken1flan/20190122/20190122233806.png)
+![SQLインジェクション](../images/sql_injection/search_by_sql.png)
 
 これはどういうことでしょうか。
 
