@@ -18,6 +18,19 @@ http://localhost:3000/campaigns/cool_something
 
 このページにある `Visit cool something site` ボタンをクリックすると、英語版WikipediaのCatの項目にジャンプします。
 
+![タイアップページ](../images/open_redirector/tieup_page.png)
+
+リダイレクトした数を確認するための管理ページで、その成果を確認することができます。
+
+http://localhost:3000/admin/redirection_logs
+
+検索フォームの`To`にリダイレクト先のURLを入れて`Search`を押してください。
+先程のアクセスが見れると思います。
+
+これで、クライアントにこのサービスから誘導した数を報告することができますね。
+
+![リダイレクションのログ](../images/open_redirector/redirection_logs_to_wiki_cat.png)
+
 ### その2 クライアントからの誘導数をカウントする
 
 外部の提携先に依頼してキャンペーンページを作ってもらい、そこからこのアプリケーションに誘導してもらいます。
@@ -25,9 +38,22 @@ http://localhost:3000/campaigns/cool_something
 
 このページにある `Visit secuiry sample` をクリックすると、このアプリケーションのトップページにジャンプします。
 
+![提携先のキャンペーンページ](../images/open_redirector/cool_site.png)
+
+![リダイレクションのログ](../images/open_redirector/redirection_logs_to_top.png)
+
+### リダイレクタの設定方法
+このアプリケーションのリダイレクターは利用方法が簡単です。
+リダイレクターのURLの後ろにパラメータ`to`に飛び先のURLを設定するだけです。
+誰にも断らずに自由に使えるので、運用負荷がとても軽いです。
+
+```plain
+http://localhost:3000/redirector?to=(飛び先のURL)
+```
+
 ## オープンリダイレクタ脆弱性
 
-リダイレクターの機能は便利ですが、これを自由に外部の人も使えるとしたらどうでしょう？
+誰でも誰にも断らずに使える…ということは、自分や同じ会社のひと以外が勝手に使えるということです。
 想像しながら、実際に試してみましょう。
 
 ### その1 悪意のあるサイトで利用
