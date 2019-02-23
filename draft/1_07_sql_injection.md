@@ -1,6 +1,6 @@
 # SQLインジェクション
 
-![毒々しい薬の注射…](../images/sql_injection/injection.png)
+![毒々しい薬の注射…](../images/1_07_sql_injection/injection.png)
 
 ## SQLインジェクションとは？
 SQLインジェクションは、攻撃者が入力した値によって、製作者が意図しないSQLを生成し、不正にデータベースの内容を読み取ったり、改ざんを行ったりすることです。
@@ -20,7 +20,7 @@ http://localhost:3000/blogs
 ブログには`draft`、いわゆる下書きという状態があり、この状態のときには他のユーザには見えないようになっています。
 なので、検索しても`draft`の記事は出てきません。
 
-![Search blogs with keyword 'cat'](../images/sql_injection/search_by_cat.png)
+![Search blogs with keyword 'cat'](../images/1_07_sql_injection/search_by_cat.png)
 
 ### 特殊なキーワードで検索
 
@@ -28,7 +28,7 @@ http://localhost:3000/blogs
 
 そうすると、本来見えないはずの`draft`のバッジのついたブログが一覧に表示されます。
 
-![SQLインジェクション](../images/sql_injection/search_by_sql.png)
+![SQLインジェクション](../images/1_07_sql_injection/search_by_sql.png)
 
 これはどういうことでしょうか。
 

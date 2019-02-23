@@ -96,4 +96,4 @@ Use Ctrl-C to stop
 サンプルアプリケーションで脆弱性を試すときに被害者になってもらうためのユーザを登録しておきます。
 ブラウザで http://localhost:3000/users/new を開き、ユーザ登録を行います。
 
-![ユーザ登録画面](../images/setup/sign_up_user.png)
+![ユーザ登録画面](../images/1_02_setup/sign_up_user.png)
