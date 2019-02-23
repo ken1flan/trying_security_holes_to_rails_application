@@ -18,7 +18,7 @@ http://localhost:3000/campaigns/cool_something
 
 このページにある `Visit cool something site` ボタンをクリックすると、英語版WikipediaのCatの項目にジャンプします。
 
-![タイアップページ](../images/open_redirector/tieup_page.png)
+![タイアップページ](../images/1_05_open_redirector/tieup_page.png)
 
 リダイレクトした数を確認するための管理ページで、その成果を確認することができます。
 
@@ -29,7 +29,7 @@ http://localhost:3000/admin/redirection_logs
 
 これで、クライアントにこのサービスから誘導した数を報告することができますね。
 
-![リダイレクションのログ](../images/open_redirector/redirection_logs_to_wiki_cat.png)
+![リダイレクションのログ](../images/1_05_open_redirector/redirection_logs_to_wiki_cat.png)
 
 ### その2 クライアントからの誘導数をカウントする
 
@@ -38,9 +38,9 @@ http://localhost:3000/admin/redirection_logs
 
 このページにある `Visit secuiry sample` をクリックすると、このアプリケーションのトップページにジャンプします。
 
-![提携先のキャンペーンページ](../images/open_redirector/cool_site.png)
+![提携先のキャンペーンページ](../images/1_05_open_redirector/cool_site.png)
 
-![リダイレクションのログ](../images/open_redirector/redirection_logs_to_top.png)
+![リダイレクションのログ](../images/1_05_open_redirector/redirection_logs_to_top.png)
 
 ### リダイレクタの設定方法
 このアプリケーションのリダイレクターは利用方法が簡単です。
@@ -95,7 +95,7 @@ end
 サインアップやログインがリンクを確認すると、パッと見はサンプルアプリケーションのURLですが、もっとよく見ると、別のサイトへのリンクになっています。
 リンクの上にマウスを乗せてURLを見てからクリックする用心深い人も、間違えてしまいそうです。
 
-![フィッシングサイト](../images/open_redirector/spam_site_campaign.png)
+![フィッシングサイト](../images/1_05_open_redirector/spam_site_campaign.png)
 
 ### その2 詐欺メール
 サンプルアプリケーションの運営っぽいひとから届いたメールと思って、次のテキストを読んでください。
