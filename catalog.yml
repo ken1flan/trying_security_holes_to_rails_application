@@ -3,7 +3,7 @@ PREDEF:
 CHAPS:
   - 1_01_introduction.re
   - 1_02_setup.re
-  - 1_03_session_hijack.re
+  - 1_03_session.re
   - 1_04_csrf.re
   - 1_05_open_redirector.re
   - 1_06_sql_injection.re
