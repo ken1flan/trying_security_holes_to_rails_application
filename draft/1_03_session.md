@@ -42,7 +42,16 @@ TODO
 
 ### 再現の仕方
 
-TODO
+![ログイン前の被害者](../images/1_03_session/fixation_victim.png)
+![ログイン前の攻撃者](../images/1_03_session/fixation_attacker.png)
+
+![セッションIDを強制された被害者](../images/1_03_session/fixation_victim_fixed_session_id.png)
+
+![セッションIDを強制された被害者](../images/1_03_session/fixation_victim_fixed_session_id.png)
+
+![被害者が気が付かずにログイン](../images/1_03_session/fixation_victim_logged_in.png)
+
+![攻撃者がログイン](../images/1_03_session/fixation_attacker_logged_in.png)
 
 ## 修正案
 
