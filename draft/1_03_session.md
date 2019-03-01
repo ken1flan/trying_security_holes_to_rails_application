@@ -87,4 +87,17 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 ## 修正案
 
-TODO
+セッションハイジャックもセッション固定化もともにパスワードは漏れていません。
+ですので、ログインやログアウトをしたタイミングでセッションをリセットしてしまえば、攻撃者は続けて操作することができなくなります。
+
+```ruby
+# app/helpers/sessions_helper.rb
+module SessionsHelper
+  def log_in(user)
+    reset_session  # <== これを追加
+    session[:user_id] = user.id
+  end
+  :
+  :
+end
+```
