@@ -97,3 +97,22 @@ Use Ctrl-C to stop
 ブラウザで http://localhost:3000/users/new を開き、ユーザ登録を行います。
 
 ![ユーザ登録画面](../images/1_02_setup/sign_up_user.png)
+
+### ログイン
+ブラウザで http://localhost:3000/session/new にアクセスします。
+
+![ログイン画面](../images/1_02_setup/login.png)
+
+ログインIDとパスワードを入れて、「Log in」ボタンを押します。
+
+### ブログ作成
+
+ログインした状態で、画面右上の「New blog」をクリックすると、ブログを作成できます。
+
+![右上のNew blogから作れます](../images/1_02_setup/new_blog.png)
+
+### ログアウト
+
+ログインした状態で、画面右上のアカウント名をクリックしてドロップダウンメニューを開き、「Log out」をクリックすると、ログアウトします。
+
+![ログアウト](../images/1_02_setup/logout.png)
