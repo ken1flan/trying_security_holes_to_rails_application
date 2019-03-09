@@ -1,4 +1,4 @@
-# サンプルアプリケーションとセットアップ
+# サンプルアプリケーション
 
 ここでは、この本の中で使うアプリケーションについて、簡単な説明と、セットアップ方法、よく使う操作について説明します。
 
@@ -76,9 +76,11 @@ Created database 'db/test.sqlite3'
 $
 ```
 
-### 起動
+## よく行う操作
 
-起動はよくあるRailsアプリケーションと同様に、`rails s`です。
+### アプリケーションの起動
+
+`rails s`で起動します。
 
 ```bash
 $ rails s
@@ -92,6 +94,25 @@ Puma starting in single mode...
 * Listening on tcp://0.0.0.0:3000
 Use Ctrl-C to stop
 ```
+
+### アプリケーションの終了
+
+`Ctrl-C`で止まります。
+
+```bash
+Completed 200 OK in 138ms (Views: 131.0ms | ActiveRecord: 0.4ms)
+
+
+   (0.1ms)  begin transaction
+   (0.1ms)  commit transaction
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2019-03-09 18:24:06 +0900 ===
+- Goodbye!
+Exiting
+$
+```
+
+## 一般ユーザ向け機能
 
 ### ユーザ登録
 
@@ -118,3 +139,28 @@ Use Ctrl-C to stop
 ログインした状態で、画面右上のアカウント名をクリックしてドロップダウンメニューを開き、「Log out」をクリックすると、ログアウトします。
 
 ![ログアウト](../images/1_02_setup/logout.png)
+
+## 管理者向け機能
+
+### ログイン
+
+次のURLにアクセスすると、管理者としてのログイン画面になります。
+http://localhost:3000/admin/session/new
+
+![ログイン](../images/1_02_setup/admin_login.png)
+
+アカウント `admin` 、パスワード `password` でログインできます。
+
+### リダイレクターのログ確認
+
+管理者としてログインした状態で次のURLにアクセスすると、リダイレクターのログが確認できます。
+
+http://localhost:3000/admin/redirection_logs
+
+![リダイレクターのログ](../images/1_02_setup/redirection_log.png)
+
+### ログアウト
+
+ログインした状態で、画面右上のアカウント名をクリックしてドロップダウンメニューを開き、「Log out」をクリックすると、ログアウトします。
+
+![ログアウト](../images/1_02_setup/admin_logout.png)
