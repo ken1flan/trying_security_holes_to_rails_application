@@ -1,4 +1,4 @@
-# SQLインジェクション
+# SQLのスキでヤラれる
 
 ![毒々しい薬の注射…](../images/1_06_sql_injection/injection.png)
 
