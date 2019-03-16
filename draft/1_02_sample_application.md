@@ -119,12 +119,12 @@ $
 サンプルアプリケーションで脆弱性を試すときに被害者になってもらうためのユーザを登録しておきます。
 ブラウザで http://localhost:3000/users/new を開き、ユーザ登録を行います。
 
-![ユーザ登録画面](../images/1_02_setup/sign_up_user.png)
+![ユーザ登録画面](../images/1_02_sample_application/sign_up_user.png)
 
 ### ログイン
 ブラウザで http://localhost:3000/session/new にアクセスします。
 
-![ログイン画面](../images/1_02_setup/login.png)
+![ログイン画面](../images/1_02_sample_application/login.png)
 
 ログインIDとパスワードを入れて、「Log in」ボタンを押します。
 
@@ -132,13 +132,13 @@ $
 
 ログインした状態で、画面右上の「New blog」をクリックすると、ブログを作成できます。
 
-![右上のNew blogから作れます](../images/1_02_setup/new_blog.png)
+![右上のNew blogから作れます](../images/1_02_sample_application/new_blog.png)
 
 ### ログアウト
 
 ログインした状態で、画面右上のアカウント名をクリックしてドロップダウンメニューを開き、「Log out」をクリックすると、ログアウトします。
 
-![ログアウト](../images/1_02_setup/logout.png)
+![ログアウト](../images/1_02_sample_application/logout.png)
 
 ## 管理者向け機能
 
@@ -147,7 +147,7 @@ $
 次のURLにアクセスすると、管理者としてのログイン画面になります。
 http://localhost:3000/admin/session/new
 
-![ログイン](../images/1_02_setup/admin_login.png)
+![ログイン](../images/1_02_sample_application/admin_login.png)
 
 アカウント `admin` 、パスワード `password` でログインできます。
 
@@ -157,10 +157,10 @@ http://localhost:3000/admin/session/new
 
 http://localhost:3000/admin/redirection_logs
 
-![リダイレクターのログ](../images/1_02_setup/redirection_log.png)
+![リダイレクターのログ](../images/1_02_sample_application/redirection_log.png)
 
 ### ログアウト
 
 ログインした状態で、画面右上のアカウント名をクリックしてドロップダウンメニューを開き、「Log out」をクリックすると、ログアウトします。
 
-![ログアウト](../images/1_02_setup/admin_logout.png)
+![ログアウト](../images/1_02_sample_application/admin_logout.png)
