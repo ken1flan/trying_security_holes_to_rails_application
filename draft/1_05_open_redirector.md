@@ -1,6 +1,6 @@
 # リダイレクターのスキでヤラれる
 
-![オープンリダイレクター](../images/1_05_open_redirector/open_redirector.jpg)
+![オープンリダイレクター](../images/1_05_open_redirector/open_redirector.png)
 
 ここでは、リダイレクターがどのようなものであるか、そのリダイレクターが悪用されるとどうなるのか、最後に悪用されないリダイレクターについて考えます。
 
