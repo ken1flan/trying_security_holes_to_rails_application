@@ -1,5 +1,7 @@
 # HTTPとHTTPSのパケット
 
+![パケットキャプチャー](../images/9_01_http_packet/packet_capture.jpg)
+
 HTTPとHTTPSでサンプルアプリケーションにアクセスしたときに、パケットの内容が見れるのかどうかを確認します。
 
 ## お断り
