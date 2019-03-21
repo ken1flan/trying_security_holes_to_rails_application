@@ -10,8 +10,7 @@ CHAPS:
   - 1_07_xss.re
   - 1_08_regexp.re
   - 1_09_taking_measures.re
-  - 1_10_bibliography.re
-  - 1_11_conclusion.re
+  - 1_10_conclusion.re
 
 APPENDIX:
   - 9_01_http_packet.re
