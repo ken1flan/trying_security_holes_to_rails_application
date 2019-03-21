@@ -22,4 +22,4 @@
 
 それではしばらくの間、おつきあいください。
 
-![ペコリ](../images/1_01_introduction/bow.jpg)
+![ペコリ](../images/1_01_introduction/bow.png)
