@@ -2,7 +2,7 @@ PREDEF:
 
 CHAPS:
   - 1_01_introduction.re
-  - 1_02_setup.re
+  - 1_02_sample_application.re
   - 1_03_session.re
   - 1_04_csrf.re
   - 1_05_open_redirector.re
