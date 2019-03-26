@@ -14,3 +14,6 @@ $ bundle install
  ```bash
  $ bundle exec rake epub
  ```
+
+## おことわり
+ [TechBoosterさんのReVIEW-Template](https://github.com/TechBooster/ReVIEW-Template)を元に執筆環境を作っています。
