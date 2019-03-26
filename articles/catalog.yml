@@ -1,0 +1,21 @@
+PREDEF:
+  - preface.re
+
+CHAPS:
+  - 1_01_introduction.re
+  - 1_02_setup.re
+  - 1_03_session.re
+  - 1_04_csrf.re
+  - 1_05_open_redirector.re
+  - 1_06_sql_injection.re
+  - 1_07_xss.re
+  - 1_08_regexp.re
+  - 1_09_taking_measures.re
+  - 1_10_bibliography.re
+  - 1_11_conclusion.re
+
+APPENDIX:
+  - 9_01_http_packet.re
+
+POSTDEF:
+  - contributors.re
