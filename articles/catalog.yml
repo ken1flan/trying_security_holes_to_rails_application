@@ -1,5 +1,4 @@
 PREDEF:
-  - preface.re
 
 CHAPS:
   - 1_01_introduction.re
@@ -18,4 +17,3 @@ APPENDIX:
   - 9_01_http_packet.re
 
 POSTDEF:
-  - contributors.re
