@@ -66,6 +66,15 @@ end
 desc 'generate PDF and EPUB file'
 task all: %i[pdf epub]
 
+desc 'build review files from draft markdown files'
+task :draft2re do
+  Dir.glob('draft/*.md') do |md|
+    re = md.gsub(/draft\/(.*)\.md/, '\1.re')
+    command = "md2review #{md} > #{re}"
+    sh command
+  end
+end
+
 desc 'generate PDF file'
 task pdf: BOOK_PDF
 
