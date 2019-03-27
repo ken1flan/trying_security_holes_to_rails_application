@@ -5,15 +5,11 @@
 
 ## セットアップ
 
-```bash
-$ bundle install
-```
+TODO
 
-## epubのビルド
+## pdfのビルド
 
- ```bash
- $ bundle exec rake epub
- ```
+TODO
 
 ## おことわり
  [TechBoosterさんのReVIEW-Template](https://github.com/TechBooster/ReVIEW-Template)を元に執筆環境を作っています。
