@@ -30,7 +30,7 @@
 
 
 
-//image[bow][ペコリ]{
+//image[bow][][scale=0.3]{
 //}
 
 

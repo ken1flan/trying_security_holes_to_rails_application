@@ -2,7 +2,7 @@
 = 穴だらけのサンプルアプリケーション
 
 
-//image[paper_tiger][ハリボテ]{
+//image[paper_tiger][][scale=0.5]{
 //}
 
 
@@ -145,7 +145,7 @@ $
 
 
 
-//image[sign_up_user][ユーザ登録画面]{
+//image[sign_up_user][ユーザ登録画面][scale=0.8]{
 //}
 
 
@@ -157,7 +157,7 @@ $
 
 
 
-//image[login][ログイン画面]{
+//image[login][ログイン画面][scale=0.8]{
 //}
 
 
@@ -173,7 +173,7 @@ $
 
 
 
-//image[new_blog][右上のNew blogから作れます]{
+//image[new_blog][右上のNew blogから作れます][scale=0.8]{
 //}
 
 
@@ -185,7 +185,7 @@ $
 
 
 
-//image[logout][ログアウト]{
+//image[logout][ログアウト][scale=0.8]{
 //}
 
 
@@ -200,7 +200,7 @@ http://localhost:3000/admin/session/new
 
 
 
-//image[admin_login][ログイン]{
+//image[admin_login][ログイン][scale=0.8]{
 //}
 
 
@@ -220,7 +220,7 @@ http://localhost:3000/admin/redirection_logs
 
 
 
-//image[redirection_log][リダイレクターのログ]{
+//image[redirection_log][リダイレクターのログ][scale=0.8]{
 //}
 
 
@@ -232,7 +232,7 @@ http://localhost:3000/admin/redirection_logs
 
 
 
-//image[admin_logout][ログアウト]{
+//image[admin_logout][ログアウト][scale=0.8]{
 //}
 
 

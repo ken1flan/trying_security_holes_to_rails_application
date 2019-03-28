@@ -2,7 +2,7 @@
 = リクエストのスキでヤラれる
 
 
-//image[csrf][あれ？それにサインしたつもりは…。]{
+//image[csrf][][scale=0.5]{
 //}
 
 ここではクロスサイトリクエストフォージェリ（CSRF）についてに試します。
@@ -16,7 +16,7 @@
 
 
 
-//image[blogs_before][操作前のブログ一覧]{
+//image[blogs_before][操作前のブログ一覧][scale=0.8]{
 //}
 
 
@@ -30,7 +30,7 @@ outside/csrf/index.html
 //}
 
 
-//image[csrf_sample][何気ないページ]{
+//image[csrf_sample][何気ないページ][scale=0.8]{
 //}
 
 
@@ -41,7 +41,7 @@ outside/csrf/index.html
 
 
 
-//image[blogs_after][いつのまにかhelloという記事を投稿したことになっている]{
+//image[blogs_after][いつのまにかhelloという記事を投稿したことになっている][scale=0.8]{
 //}
 
 
