@@ -84,7 +84,9 @@ https://example.com */
 class User < ApplicationRecord
     :
     :
-  validates :homepage, format: { with: /^https?:\/\/.*$/, multiline: true }, allow_blank: true
+  validates :homepage,
+    format: { with: /^https?:\/\/.*$/, multiline: true },
+    allow_blank: true
 end
 //}
 

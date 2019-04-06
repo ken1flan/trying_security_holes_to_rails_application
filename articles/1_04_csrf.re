@@ -67,7 +67,11 @@ outside/csrf/index.html
 <body>
   <h1>CSRF Sample</h1>
   <img src='./test.jpg' height=100><br>
-  <img src='http://localhost:3000/users/1/blogs/create?blog[title]=hello&blog[body]=CSRF&blog[status]=published' style='display: none;'>
+  <img
+    src='http://localhost:3000/users/1/blogs/create?
+      blog[title]=hello&blog[body]=CSRF&blog[status]=published'
+    style='display: none;'
+  >
 </body>
 </html>
 //}

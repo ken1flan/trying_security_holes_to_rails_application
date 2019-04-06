@@ -35,7 +35,9 @@ Rails Version: 5.2.2
 Brakeman Version: 4.3.1
 Scan Date: 2019-03-13 19:35:00 +0900
 Duration: 0.821549 seconds
-Checks Run: BasicAuth, BasicAuthTimingAttack, ContentTag, CreateWith, CrossSiteScripting, DefaultRoutes, Deserialize, DetailedExceptions, DigestDoS, DynamicFinders, E
+Checks Run: BasicAuth, BasicAuthTimingAttack, ContentTag, CreateWith,
+  CrossSiteScripting, DefaultRoutes, Deserialize, DetailedExceptions,
+  DigestDoS, DynamicFinders, E
   :
   :
 == Warning Types ==
@@ -64,7 +66,8 @@ Line: 26
 Confidence: High
 Category: Format Validation
 Check: ValidationRegex
-Message: Insufficient validation for 'homepage' using /^https?:\/\/.*$/. Use \A and \z as anchors
+Message: Insufficient validation for 'homepage'
+  using /^https?:\/\/.*$/. Use \A and \z as anchors
 File: app/models/user.rb
 Line: 11
 
@@ -80,7 +83,11 @@ Confidence: High
 Category: SQL Injection
 Check: SQL
 Message: Possible SQL injection
-Code: Blog.includes(:user).published.order("updated_at DESC").where("title LIKE \"%#{params[:search_text]}%\" OR body LIKE \"%#{params[:search_text]}%\"").where("created_at >= '#{params[:search_start_at]}'").where("created_at <= '#{params[:search_end_at]}'")
+Code: Blog.includes(:user).published.order("updated_at DESC")
+  .where("title LIKE \"%#{params[:search_text]}%\"
+    OR body LIKE \"%#{params[:search_text]}%\"")
+  .where("created_at >= '#{params[:search_start_at]}'")
+  .where("created_at <= '#{params[:search_end_at]}'")
 File: app/controllers/blogs_controller.rb
 Line: 18
 
@@ -88,7 +95,10 @@ Confidence: High
 Category: SQL Injection
 Check: SQL
 Message: Possible SQL injection
-Code: Blog.includes(:user).published.order("updated_at DESC").where("title LIKE \"%#{params[:search_text]}%\" OR body LIKE \"%#{params[:search_text]}%\"").where("created_at >= '#{params[:search_start_at]}'")
+Code: Blog.includes(:user).published.order("updated_at DESC")
+  .where("title LIKE \"%#{params[:search_text]}%\"
+    OR body LIKE \"%#{params[:search_text]}%\"")
+  .where("created_at >= '#{params[:search_start_at]}'")
 File: app/controllers/blogs_controller.rb
 Line: 14
 
@@ -96,7 +106,9 @@ Confidence: High
 Category: SQL Injection
 Check: SQL
 Message: Possible SQL injection
-Code: Blog.includes(:user).published.order("updated_at DESC").where("title LIKE \"%#{params[:search_text]}%\" OR body LIKE \"%#{params[:search_text]}%\"")
+Code: Blog.includes(:user).published.order("updated_at DESC")
+  .where("title LIKE \"%#{params[:search_text]}%\"
+    OR body LIKE \"%#{params[:search_text]}%\"")
 File: app/controllers/blogs_controller.rb
 Line: 10
 //}

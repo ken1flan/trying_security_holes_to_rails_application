@@ -173,7 +173,8 @@ end
 
 
 //emlist[][plain]{
-From: セキュリティサンプル事務局緊急連絡係 <emergency@security-sample-organizer.evil.example.com>
+From: セキュリティサンプル事務局緊急連絡係
+  <emergency@security-sample-organizer.evil.example.com>
 Subject: 【緊急】あなたのアカウントが乗っ取られている可能性があります！！
 Body:
 いつもご利用いただき、誠にありがとうございます。

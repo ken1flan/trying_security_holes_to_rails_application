@@ -82,7 +82,9 @@ class BlogsController < ApplicationController
     @search_end_at = params[:search_end_at]
 
     if @search_text.present?
-      @blogs = @blogs.where("title LIKE \"%#{@search_text}%\" OR body LIKE \"%#{@search_text}%\"")
+      @blogs = @blogs.where(
+        "title LIKE \"%#{@search_text}%\" OR body LIKE \"%#{@search_text}%\""
+      )
     end
       :
       :
@@ -98,7 +100,9 @@ class BlogsController < ApplicationController
 
 
 //emlist[][SQL]{
-SELECT "blogs".* FROM "blogs" WHERE "blogs"."status" = ? AND (title LIKE "%cat%" OR body LIKE "%cat%") ORDER BY updated_at DESC  [["status", 1]]
+SELECT "blogs".* FROM "blogs"
+WHERE "blogs"."status" = ? AND (title LIKE "%cat%" OR body LIKE "%cat%")
+ORDER BY updated_at DESC  [["status", 1]]
 //}
 
 
@@ -106,7 +110,10 @@ SELECT "blogs".* FROM "blogs" WHERE "blogs"."status" = ? AND (title LIKE "%cat%"
 
 
 //emlist[][sql]{
-SELECT "blogs".* FROM "blogs" WHERE "blogs"."status" = ? AND (title LIKE "%") OR 1 = 1 -- %" OR body LIKE "%") OR 1 = 1 -- %") ORDER BY updated_at DESC
+SELECT "blogs".* FROM "blogs"
+WHERE "blogs"."status" = ?
+AND (title LIKE "%") OR 1 = 1 -- %" OR body LIKE "%") OR 1 = 1 -- %")
+ORDER BY updated_at DESC
 //}
 
 
@@ -120,7 +127,10 @@ SELECT "blogs".* FROM "blogs" WHERE "blogs"."status" = ? AND (title LIKE "%") OR
 
 
 //emlist[][ruby]{
-@blogs = @blogs.where("title LIKE :search_text OR body LIKE :search_text", search_text: "%#{@search_text}%")
+@blogs = @blogs.where(
+  "title LIKE :search_text OR body LIKE :search_text",
+  search_text: "%#{@search_text}%"
+)
 //}
 
 
@@ -128,7 +138,10 @@ SELECT "blogs".* FROM "blogs" WHERE "blogs"."status" = ? AND (title LIKE "%") OR
 
 
 //emlist[][sql]{
-SELECT "blogs".* FROM "blogs" WHERE "blogs"."status" = ? AND (title LIKE '%") OR 1 = 1 -- %' OR body LIKE '%") OR 1 = 1 -- %') ORDER BY updated_at DESC
+SELECT "blogs".* FROM "blogs"
+WHERE "blogs"."status" = ?
+AND (title LIKE '%") OR 1 = 1 -- %' OR body LIKE '%") OR 1 = 1 -- %')
+ORDER BY updated_at DESC
 //}
 
 
@@ -140,7 +153,9 @@ SELECT "blogs".* FROM "blogs" WHERE "blogs"."status" = ? AND (title LIKE '%") OR
 
 
 //emlist[][sql]{
-SELECT "blogs".* FROM "blogs" WHERE "blogs"."status" = ? AND (title LIKE '%'') OR 1 = 1 -- %' OR body LIKE '%'') OR 1 = 1 -- %') ORDER BY updated_at DESC
+SELECT "blogs".* FROM "blogs" WHERE "blogs"."status" = ?
+AND (title LIKE '%'') OR 1 = 1 -- %' OR body LIKE '%'') OR 1 = 1 -- %')
+ORDER BY updated_at DESC
 //}
 
 
