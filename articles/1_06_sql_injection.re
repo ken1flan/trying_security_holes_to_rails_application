@@ -2,7 +2,7 @@
 = SQLのスキでヤラれる
 
 
-//image[injection][][scale=0.5]{
+//indepimage[injection][][scale=0.5]{
 //}
 
 
@@ -41,7 +41,7 @@ http://localhost:3000/blogs
 
 
 
-//image[search_by_cat][Search blogs with keyword 'cat'][scale=0.8]{
+//indepimage[search_by_cat][][scale=0.8]{
 //}
 
 
@@ -57,7 +57,7 @@ http://localhost:3000/blogs
 
 
 
-//image[search_by_sql][SQLインジェクション][scale=0.8]{
+//indepimage[search_by_sql][][scale=0.8]{
 //}
 
 

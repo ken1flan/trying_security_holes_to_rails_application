@@ -30,7 +30,7 @@
 
 
 
-//image[bow][][scale=0.3]{
+//indepimage[bow][][scale=0.3]{
 //}
 
 

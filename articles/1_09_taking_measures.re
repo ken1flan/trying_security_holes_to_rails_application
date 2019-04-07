@@ -2,7 +2,7 @@
 = 対策しよう
 
 
-//image[brakeman][][scale=0.5]{
+//indepimage[brakeman][][scale=0.5]{
 //}
 
 

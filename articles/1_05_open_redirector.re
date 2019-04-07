@@ -2,7 +2,7 @@
 = リダイレクターのスキでヤラれる
 
 
-//image[open_redirector][][scale=0.5]{
+//indepimage[open_redirector][][scale=0.5]{
 //}
 
 
@@ -42,7 +42,7 @@ http://localhost:3000/campaigns/cool_something
 
 
 
-//image[tieup_page][タイアップページ][scale=0.8]{
+//indepimage[tieup_page][][scale=0.8]{
 //}
 
 
@@ -65,7 +65,7 @@ http://localhost:3000/admin/redirection_logs
 
 
 
-//image[redirection_logs_to_wiki_cat][リダイレクションのログ][scale=0.8]{
+//indepimage[redirection_logs_to_wiki_cat][][scale=0.8]{
 //}
 
 
@@ -82,13 +82,13 @@ http://localhost:3000/admin/redirection_logs
 
 
 
-//image[cool_site][提携先のキャンペーンページ][scale=0.8]{
+//indepimage[cool_site][][scale=0.8]{
 //}
 
 
 
 
-//image[redirection_logs_to_top][リダイレクションのログ][scale=0.8]{
+//indepimage[redirection_logs_to_top][][scale=0.8]{
 //}
 
 
@@ -161,7 +161,7 @@ end
 
 
 
-//image[spam_site_campaign][フィッシングサイト][scale=0.8]{
+//indepimage[spam_site_campaign][][scale=0.8]{
 //}
 
 

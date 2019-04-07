@@ -2,7 +2,7 @@
 = 正規表現のスキを突く
 
 
-//image[where_are_your_eyes][][scale=0.5]{
+//indepimage[where_are_your_eyes][][scale=0.5]{
 //}
 
 
@@ -18,7 +18,7 @@
 
 
 
-//image[profile][プロフィールへ][scale=0.8]{
+//indepimage[profile][][scale=0.8]{
 //}
 
 
@@ -35,7 +35,7 @@
 
 
 
-//image[invalid_error][プロフィール編集][scale=0.8]{
+//indepimage[invalid_error][][scale=0.8]{
 //}
 
 
@@ -46,7 +46,7 @@
 
 
 
-//image[text2textarea][textからtextareaに][scale=0.8]{
+//indepimage[text2textarea][][scale=0.8]{
 //}
 
 
@@ -66,7 +66,7 @@ https://example.com */
 
 
 
-//image[it_works][保存できたし、動いたし…][scale=0.8]{
+//indepimage[it_works][][scale=0.8]{
 //}
 
 

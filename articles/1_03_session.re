@@ -2,7 +2,7 @@
 = セッションのスキでヤラれる
 
 
-//image[session_hijack][][scale=0.5]{
+//indepimage[session_hijack][][scale=0.5]{
 //}
 
 
@@ -40,7 +40,7 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 
 
-//image[victim][ログイン前の被害者][scale=0.8]{
+//indepimage[victim][][scale=0.8]{
 //}
 
 
@@ -51,7 +51,7 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 
 
-//image[attacker][ログイン前の攻撃者][scale=0.8]{
+//indepimage[attacker][][scale=0.8]{
 //}
 
 
@@ -61,7 +61,7 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 
 
-//image[use_victims_session_id][被害者のセッションIDを設定][scale=0.8]{
+//indepimage[use_victims_session_id][][scale=0.8]{
 //}
 
 
@@ -71,7 +71,7 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 
 
-//image[victim_logged_in][被害者がログイン][scale=0.8]{
+//indepimage[victim_logged_in][][scale=0.8]{
 //}
 
 
@@ -81,7 +81,7 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 
 
-//image[attacker_logged_in][攻撃者がログイン][scale=0.8]{
+//indepimage[attacker_logged_in][][scale=0.8]{
 //}
 
 
@@ -110,7 +110,7 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 
 
-//image[fixation_victim][ログイン前の被害者][scale=0.8]{
+//indepimage[fixation_victim][][scale=0.8]{
 //}
 
 
@@ -121,7 +121,7 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 
 
-//image[fixation_attacker][ログイン前の攻撃者][scale=0.8]{
+//indepimage[fixation_attacker][][scale=0.8]{
 //}
 
 
@@ -132,7 +132,7 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 
 
-//image[fixation_victim_fixed_session_id][セッションIDを強制された被害者][scale=0.8]{
+//indepimage[fixation_victim_fixed_session_id][][scale=0.8]{
 //}
 
 
@@ -142,7 +142,7 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 
 
-//image[fixation_victim_logged_in][被害者が気が付かずにログイン][scale=0.8]{
+//indepimage[fixation_victim_logged_in][][scale=0.8]{
 //}
 
 
@@ -152,7 +152,7 @@ HTTPは一回一回で接続が切れる、状態を持たないプロトコル�
 
 
 
-//image[fixation_attacker_logged_in][攻撃者がログイン][scale=0.8]{
+//indepimage[fixation_attacker_logged_in][][scale=0.8]{
 //}
 
 

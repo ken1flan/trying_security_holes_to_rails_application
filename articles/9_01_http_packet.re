@@ -4,7 +4,7 @@
 == HTTPとHTTPSのパケット
 
 
-//image[packet_capture][パケットキャプチャー][scale=0.5]{
+//indepimage[packet_capture][][scale=0.5]{
 //}
 
 
@@ -29,7 +29,7 @@ https://localhost:3000 にアクセスしてみてください。
 
 
 
-//image[browser_http_get][HTTPで通信すると…][scale=0.8]{
+//indepimage[browser_http_get][][scale=0.8]{
 //}
 
 
@@ -39,7 +39,7 @@ https://localhost:3000 にアクセスしてみてください。
 
 
 
-//image[http_packet][パケットキャプチャでセッションIDが見える][scale=0.8]{
+//indepimage[http_packet][][scale=0.8]{
 //}
 
 
@@ -57,7 +57,7 @@ https://localhost:9292 にアクセスしてみてください。
 
 
 
-//image[browser_https_get][HTTPSで通信すると…][scale=0.8]{
+//indepimage[browser_https_get][][scale=0.8]{
 //}
 
 
@@ -68,7 +68,7 @@ https://localhost:9292 にアクセスしてみてください。
 
 
 
-//image[https_packet][パケットキャプチャでも内容がわからない][scale=0.8]{
+//indepimage[https_packet][][scale=0.8]{
 //}
 
 

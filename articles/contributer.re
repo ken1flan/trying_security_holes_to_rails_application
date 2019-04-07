@@ -2,7 +2,7 @@
 
 == ken1flan
 
-//image[ken1flan][][scale=0.2]{
+//indepimage[ken1flan][][scale=0.2]{
 //}
 
 @<href>{https://www.ruby-lang.org/,プログラミング言語 Ruby}の地域コミュニティ、@<href>{https://ginzarb.github.io/,Ginza.rb} 主催のひとり。

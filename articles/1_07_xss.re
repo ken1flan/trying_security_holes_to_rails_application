@@ -2,7 +2,7 @@
 = クロスサイトスクリプティング
 
 
-//image[trap][][scale=0.5]{
+//indepimage[trap][][scale=0.5]{
 //}
 
 
@@ -27,7 +27,7 @@
 
 
 
-//image[meadurement_tag][計測タグ編集][scale=0.8]{
+//indepimage[meadurement_tag][][scale=0.8]{
 //}
 
 
@@ -44,7 +44,7 @@
 
 
 
-//image[my_blog][My blogsから辿ると早い][scale=0.8]{
+//indepimage[my_blog][][scale=0.8]{
 //}
 
 
@@ -54,7 +54,7 @@ Chromeの開発者ツールなどでソースを見てみると、先程入れ�
 
 
 
-//image[displayed_tag][My blogsから辿ると早い][scale=0.8]{
+//indepimage[displayed_tag][][scale=0.8]{
 //}
 
 
@@ -74,7 +74,7 @@ http://localhost:3000/blogs
 
 
 
-//image[blogs][ブログ一覧][scale=0.8]{
+//indepimage[blogs][][scale=0.8]{
 //}
 
 
@@ -85,7 +85,7 @@ http://localhost:3000/blogs
 
 
 
-//image[displayed_session_id][セッションIDが表示されてる！][scale=0.8]{
+//indepimage[displayed_session_id][][scale=0.8]{
 //}
 
 
